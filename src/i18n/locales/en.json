@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "method": "The Method",
+    "services": "Services",
+    "impact": "Impact",
+    "team": "Elite Team",
+    "consultation": "Free Consultation",
+    "langSwitch": "ES/EN"
+  },
+  "hero": {
+    "badge": "High Performance Coaching",
+    "title": "YOUR BEST SELF <br/><span class=\"text-gradient\">WON'T WAIT.</span>",
+    "subtitle": "Elite physical, mental, and nutritional coaching designed for the modern world. We don't just change habits; we architect high-performance lifestyles.",
+    "cta1": "Start Your Transformation",
+    "cta2": "Watch Anthem",
+    "stat1Value": "100%",
+    "stat1Label": "Commitment",
+    "stat2Value": "0",
+    "stat2Label": "Excuses"
+  },
+  "trident": {
+    "sectionLabel": "THE SUCCESS",
+    "title": "TRIDENT",
+    "subtitle": "True high performance requires total synergy. Our coaching methodology attacks your potential from three critical angles simultaneously.",
+    "bodyTitle": "Body",
+    "bodyDesc": "Biomechanically optimized training programs designed to build resilient, powerful, and adaptable physical foundations.",
+    "mindTitle": "Mind",
+    "mindDesc": "Cognitive conditioning to enhance focus, manage stress, and develop the relentless discipline required of elite performers.",
+    "nutritionTitle": "Nutrition",
+    "nutritionDesc": "Precision macro and micronutrient strategies tailored to fuel your specific metabolic demands and accelerate recovery."
+  },
+  "method": {
+    "sectionLabel": "THE",
+    "title": "METHOD",
+    "subtitle": "A systematic, data-driven approach to human optimization. We leave nothing to chance.",
+    "step1Title": "Assessment & Diagnostics",
+    "step1Desc": "Comprehensive body composition analysis, movement screening, and lifestyle auditing to establish baseline metrics.",
+    "step2Title": "Nutrition & Control Plan",
+    "step2Desc": "Tailored precision nutritional strategy to optimize metabolism, sustained energy levels, and muscular recovery.",
+    "step3Title": "Protocol Design",
+    "step3Desc": "Engineering a bespoke, periodized plan integrating strength training blocks, endurance, and cognitive focus tasks.",
+    "step4Title": "Execution & Iteration",
+    "step4Desc": "Relentless execution with continuous data tracking, allowing for micro-adjustments to ensure constant progression.",
+    "overlayText": "Active Phase"
+  },
+  "impact": {
+    "title": "PROVEN <span class=\"text-primary-container\">IMPACT</span>",
+    "stat1Value": "94%",
+    "stat1Label": "Goal Achievement Rate",
+    "stat2Value": "12k+",
+    "stat2Label": "Hours Coached",
+    "stat3Value": "-18%",
+    "stat3Label": "Avg. Body Fat Reduction",
+    "stat4Value": "24/7",
+    "stat4Label": "Accountability Support"
+  },
+  "cta": {
+    "title": "READY TO COMMIT?",
+    "subtitle": "Book a complimentary strategy session. We'll assess your current state and map out the exact protocol needed to reach your peak.",
+    "placeholder": "Enter your email address",
+    "button": "Claim Free Consultation",
+    "note": "Limited spots available monthly"
+  },
+  "footer": {
+    "brand": "ROMAN METHOD",
+    "tagline": "© 2024 ROMAN METHOD. HIGH PERFORMANCE HOLISTIC COACHING.",
+    "link1": "Privacy Policy",
+    "link2": "Terms of Service",
+    "link3": "Institutional",
+    "link4": "Contact"
+  },
+  "carousel": {
+    "prev": "Previous",
+    "next": "Next",
+    "slide1": {
+      "title": "Body Composition Assessment",
+      "desc": "In-depth study of your baseline, recovery habits, body composition, and high-performance targets."
+    },
+    "slide2": {
+      "title": "Nutrition & Meal Plan Design",
+      "desc": "Flexible, tailored nutritional strategies that optimize metabolic energy without rigid restrictions."
+    },
+    "slide3": {
+      "title": "Training Protocol",
+      "desc": "Biomechanically optimized workout routines designed to build strength, power, and speed progressively."
+    },
+    "slide4": {
+      "title": "Mental Conditioning & Focus",
+      "desc": "Cognitive tools to build unshakeable discipline, mental clarity, and daily stress management."
+    }
+  }
+}

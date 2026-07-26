@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "method": "El Método",
+    "services": "Servicios",
+    "impact": "Impacto",
+    "team": "Equipo de Élite",
+    "consultation": "Consulta Gratuita",
+    "langSwitch": "EN/ES"
+  },
+  "hero": {
+    "badge": "Alto Rendimiento",
+    "title": "TU MEJOR VERSIÓN <br/><span class=\"text-gradient\">NO ESPERA.</span>",
+    "subtitle": "Entrenamiento físico, mental y nutrición de élite para el mundo real. Forja disciplina, potencia y claridad.",
+    "cta1": "Comienza tu Transformación",
+    "cta2": "Ver el Método",
+    "stat1Value": "100%",
+    "stat1Label": "Compromiso",
+    "stat2Value": "0",
+    "stat2Label": "Excusas"
+  },
+  "trident": {
+    "sectionLabel": "EL TRIDENTE DEL",
+    "title": "ÉXITO",
+    "subtitle": "El verdadero alto rendimiento requiere sinergia total. Nuestra metodología ataca tu potencial desde tres ángulos críticos simultáneamente.",
+    "bodyTitle": "Cuerpo",
+    "bodyDesc": "Programas de entrenamiento biomecánicamente optimizados para construir bases físicas resilientes, potentes y adaptables.",
+    "mindTitle": "Mente",
+    "mindDesc": "Acondicionamiento cognitivo para mejorar el enfoque, gestionar el estrés y desarrollar la disciplina implacable que exigen los atletas de élite.",
+    "nutritionTitle": "Nutrición",
+    "nutritionDesc": "Estrategias de macro y micronutrientes de precisión diseñadas para alimentar tus demandas metabólicas y acelerar la recuperación."
+  },
+  "method": {
+    "sectionLabel": "EL",
+    "title": "MÉTODO",
+    "subtitle": "Un enfoque sistemático y basado en datos para la optimización humana. No dejamos nada al azar.",
+    "step1Title": "Evaluación y Diagnóstico",
+    "step1Desc": "Análisis de composición corporal, evaluación de movimiento y auditoría de estilo de vida para establecer métricas base.",
+    "step2Title": "Control y Plan de Alimentación",
+    "step2Desc": "Estrategia nutricional de precisión personalizada para optimizar el metabolismo, la energía constante y la recuperación.",
+    "step3Title": "Diseño de Protocolo",
+    "step3Desc": "Ingeniería de un plan periodizado que integra bloques de entrenamiento de fuerza, resistencia y tareas cognitivas.",
+    "step4Title": "Ejecución e Iteración",
+    "step4Desc": "Ejecución implacable con seguimiento continuo de datos, lo que permite microajustes para garantizar una progresión constante.",
+    "overlayText": "Fase Activa"
+  },
+  "impact": {
+    "title": "IMPACTO <span class=\"text-primary-container\">PROBADO</span>",
+    "stat1Value": "94%",
+    "stat1Label": "Tasa de Éxito en Metas",
+    "stat2Value": "12k+",
+    "stat2Label": "Horas de Coaching",
+    "stat3Value": "-18%",
+    "stat3Label": "Reducción Media de Grasa",
+    "stat4Value": "24/7",
+    "stat4Label": "Soporte y Rendición de Cuentas"
+  },
+  "cta": {
+    "title": "¿LISTO PARA COMPROMETERTE?",
+    "subtitle": "Reserva una sesión estratégica gratuita. Evaluaremos tu estado actual y trazaremos el protocolo exacto necesario para alcanzar tu pico.",
+    "placeholder": "Introduce tu dirección de correo electrónico",
+    "button": "Solicitar Consulta Gratuita",
+    "note": "Plazas limitadas mensualmente"
+  },
+  "footer": {
+    "brand": "MÉTODO ROMÁN",
+    "tagline": "© 2024 MÉTODO ROMÁN. COACHING HOLÍSTICO DE ALTO RENDIMIENTO.",
+    "link1": "Política de Privacidad",
+    "link2": "Términos de Servicio",
+    "link3": "Institucional",
+    "link4": "Contacto"
+  },
+  "carousel": {
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "slide1": {
+      "title": "Evaluación Corporal y Análisis",
+      "desc": "Estudio detallado de tu punto de partida, hábitos de descanso, composición corporal y metas de alto rendimiento."
+    },
+    "slide2": {
+      "title": "Diseño del Plan de Alimentación",
+      "desc": "Estrategias nutricionales flexibles y personalizadas que optimizan tu energía metabólica sin restricciones extremas."
+    },
+    "slide3": {
+      "title": "Protocolo de Entrenamiento",
+      "desc": "Programas biomecánicamente optimizados para construir fuerza, resistencia y agilidad de forma progresiva."
+    },
+    "slide4": {
+      "title": "Acondicionamiento Mental y Control",
+      "desc": "Técnicas cognitivas para forjar disciplina inquebrantable, claridad mental y gestión del estrés diario."
+    }
+  }
+}

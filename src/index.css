@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-base: #050608;
+  --bg-surface: #140906;
+  --bg-elevated: rgba(255, 255, 255, 0.03);
+  --text-primary: #fcdcd3;
+  --text-secondary: #c2c7cd;
+  --accent-primary: #ff571a;
+  --accent-glow: rgba(255, 87, 26, 0.35);
+  --border-subtle: rgba(198, 198, 204, 0.15);
+  --border-active: rgba(255, 87, 26, 0.5);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    font-family: 'Hanken Grotesk', system-ui, sans-serif;
+  }
+
+  ::selection {
+    background-color: var(--accent-primary);
+    color: #050608;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+
+  .bg-obsidian-glow {
+    background: radial-gradient(circle at 50% 0%, rgba(255, 87, 26, 0.18) 0%, rgba(20, 9, 6, 1) 75%);
+  }
+
+  .glass-card {
+    background: var(--bg-elevated);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid var(--border-subtle);
+    transition: border-color 200ms ease-in-out, box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+  }
+
+  .glass-card:hover {
+    border-color: var(--border-active);
+    box-shadow: 0 0 30px var(--accent-glow);
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #fcdcd3 0%, #ff571a 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  display: inline-block !important;
+}

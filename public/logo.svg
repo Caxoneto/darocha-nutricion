@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <!-- Emblem Mark: Double Curved R -->
+  <g transform="translate(6, 6)">
+    <!-- Outer Coral/Orange Arch -->
+    <path d="M 10 50 V 26 C 10 12.745 20.745 2 34 2 C 47.255 2 58 12.745 58 26 C 58 35.8 52.1 44.2 43.6 47.9" stroke="#ff571a" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Inner Stylized R Arch and Leg -->
+    <path d="M 22 50 L 32 36 C 37 29 42 21 34 14 C 26 7 18 15 18 24 L 46 50" stroke="#fcdcd3" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Text Brand -->
+  <text x="76" y="41" font-family="'Anybody', 'Inter', system-ui, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5">
+    <tspan fill="#ff571a">ROMAN </tspan>
+    <tspan fill="#fcdcd3">METHOD</tspan>
+  </text>
+</svg>
