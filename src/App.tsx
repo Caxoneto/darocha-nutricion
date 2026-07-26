@@ -10,7 +10,7 @@ function App() {
   const { t, i18n } = useTranslation();
   const [activeSection, setActiveSection] = useState('method');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [selectedService, setSelectedService] = useState<'body' | 'mind' | 'nutrition'>('body');
+  const [selectedService, setSelectedService] = useState<'body' | 'mind' | 'nutrition'>('nutrition');
   const [activeMethodStep, setActiveMethodStep] = useState<number>(0);
 
   const methodSteps = [
@@ -154,11 +154,11 @@ function App() {
 
           <div className="flex items-center gap-xs sm:gap-sm font-label-caps text-label-caps">
             <a
-              href="https://instagram.com/romanmethod"
+              href="https://instagram.com/darochanutricion"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Síguenos en Instagram"
-              title="Instagram @romanmethod"
+              title="Instagram @darochanutricion"
               className="inline-flex items-center justify-center p-2 rounded-full border border-outline-variant/40 bg-surface-container/60 text-tertiary hover:text-primary-container hover:border-primary-container transition-all active:scale-95 shadow-sm"
             >
               <InstagramIcon className="w-4 h-4" />
@@ -242,13 +242,13 @@ function App() {
             <h1 className="font-display-xl text-headline-lg-mobile md:text-display-xl uppercase text-on-surface leading-tight tracking-tighter">
               {i18n.language === 'es' ? (
                 <>
-                  TU MEJOR VERSIÓN <br />
-                  <span className="text-gradient">NO ESPERA.</span>
+                  TU METABOLISMO. <br />
+                  <span className="text-gradient">OPTIMIZADO AL MÁXIMO.</span>
                 </>
               ) : (
                 <>
-                  YOUR BEST SELF <br />
-                  <span className="text-gradient">WON'T WAIT.</span>
+                  YOUR METABOLISM. <br />
+                  <span className="text-gradient">FULLY OPTIMIZED.</span>
                 </>
               )}
             </h1>
@@ -258,22 +258,22 @@ function App() {
                 onClick={() => scrollToSection('team')}
                 className="bg-primary-container text-[#050608] font-label-caps text-label-caps px-md py-sm rounded hover:bg-primary transition-all duration-300 active:scale-95 shadow-[0_0_20px_rgba(255,87,26,0.4)] uppercase font-semibold"
               >
-                {t('hero.cta1')}
+                {t('hero.ctaPrimary')}
               </button>
               <button
                 onClick={() => scrollToSection('method')}
-                className="border border-outline text-on-surface font-label-caps text-label-caps px-md py-sm rounded hover:bg-surface-variant transition-all duration-300 active:scale-95 uppercase flex items-center gap-xs"
+                className="border border-outline-variant/40 text-on-surface hover:bg-surface-variant/40 font-label-caps text-label-caps px-md py-sm rounded transition-all duration-300 active:scale-95 uppercase font-semibold flex items-center gap-xs"
               >
-                <span className="material-symbols-outlined" style={{ fontSize: "18px" }}>play_arrow</span> {t('hero.cta2')}
+                <span className="material-symbols-outlined" style={{ fontSize: "18px" }}>play_arrow</span> {t('hero.ctaSecondary')}
               </button>
             </div>
           </div>
 
           <div className="relative h-[60vh] lg:h-[80vh] w-full rounded-xl overflow-hidden glass-card border-none">
             <img
-              alt="Atleta de alto rendimiento"
-              className="absolute inset-0 w-full h-full object-cover mix-blend-luminosity opacity-90"
-              src="/hero_athlete.jpg"
+              alt="DaRoCha Nutrición - Nutrición de Élite"
+              className="absolute inset-0 w-full h-full object-cover opacity-90"
+              src="/hero_darocha.jpg"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
             <div className="absolute bottom-sm left-sm right-sm flex gap-xs">
@@ -415,81 +415,81 @@ function App() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-lg items-center">
             {/* Interactive Cards Column */}
             <div className="lg:col-span-6 grid grid-cols-1 gap-sm">
-              {/* Card 1: Body */}
+              {/* Card 1: Nutrition (Primary Pillar) */}
               <button
-                onClick={() => setSelectedService('body')}
+                onClick={() => setSelectedService('nutrition')}
                 className={`text-left glass-card rounded-xl p-md flex flex-col gap-xs relative overflow-hidden transition-all duration-300 cursor-pointer ${
-                  selectedService === 'body'
+                  selectedService === 'nutrition'
                     ? 'border-primary-container shadow-[0_0_30px_rgba(255,87,26,0.3)] bg-surface-container/80'
                     : 'hover:border-outline-variant/60'
                 }`}
               >
                 <div className="flex items-center justify-between">
                   <div className="w-10 h-10 rounded bg-surface-variant flex items-center justify-center border border-outline-variant/50">
-                    <span className="material-symbols-outlined text-primary-fixed" style={{ fontVariationSettings: "'FILL' 1" }}>fitness_center</span>
+                    <span className="material-symbols-outlined text-primary-fixed" style={{ fontVariationSettings: "'FILL' 1" }}>restaurant_menu</span>
                   </div>
                   <span className={`font-label-caps text-[10px] uppercase px-xs py-0.5 rounded ${
-                    selectedService === 'body' ? 'bg-primary-container text-[#050608] font-bold' : 'text-tertiary bg-surface-variant/40'
+                    selectedService === 'nutrition' ? 'bg-primary-container text-[#050608] font-bold' : 'text-tertiary bg-surface-variant/40'
                   }`}>
-                    01 / {t('trident.bodyTitle')}
+                    01 / {t('trident.nutritionTitle')}
                   </span>
                 </div>
-                <h3 className="font-headline-md text-[22px] uppercase text-on-surface mt-xs">{t('trident.bodyTitle')}</h3>
-                <p className="font-body-md text-body-md text-tertiary text-[14px]">{t('trident.bodyDesc')}</p>
+                <h3 className="font-headline-md text-[22px] uppercase text-on-surface mt-xs">{t('trident.nutritionTitle')}</h3>
+                <p className="font-body-md text-body-md text-tertiary text-[14px]">{t('trident.nutritionDesc')}</p>
                 <div className="w-full h-1 bg-surface-variant rounded mt-xs overflow-hidden">
-                  <div className={`h-full bg-primary-container transition-all duration-500 ${selectedService === 'body' ? 'w-full shadow-[0_0_10px_rgba(255,87,26,0.8)]' : 'w-[20%]'}`}></div>
+                  <div className={`h-full bg-primary-container transition-all duration-500 ${selectedService === 'nutrition' ? 'w-full shadow-[0_0_10px_rgba(255,87,26,0.8)]' : 'w-[20%]'}`}></div>
                 </div>
               </button>
 
-              {/* Card 2: Mind */}
+              {/* Card 2: Body / Functional Training */}
               <button
-                onClick={() => setSelectedService('mind')}
+                onClick={() => setSelectedService('body')}
                 className={`text-left glass-card rounded-xl p-md flex flex-col gap-xs relative overflow-hidden transition-all duration-300 cursor-pointer ${
-                  selectedService === 'mind'
+                  selectedService === 'body'
                     ? 'border-secondary shadow-[0_0_30px_rgba(198,198,204,0.3)] bg-surface-container/80'
                     : 'hover:border-outline-variant/60'
                 }`}
               >
                 <div className="flex items-center justify-between">
                   <div className="w-10 h-10 rounded bg-surface-variant flex items-center justify-center border border-outline-variant/50">
-                    <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>psychology</span>
+                    <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>fitness_center</span>
                   </div>
                   <span className={`font-label-caps text-[10px] uppercase px-xs py-0.5 rounded ${
-                    selectedService === 'mind' ? 'bg-secondary text-[#050608] font-bold' : 'text-tertiary bg-surface-variant/40'
+                    selectedService === 'body' ? 'bg-secondary text-[#050608] font-bold' : 'text-tertiary bg-surface-variant/40'
                   }`}>
-                    02 / {t('trident.mindTitle')}
+                    02 / {t('trident.bodyTitle')}
                   </span>
                 </div>
-                <h3 className="font-headline-md text-[22px] uppercase text-on-surface mt-xs">{t('trident.mindTitle')}</h3>
-                <p className="font-body-md text-body-md text-tertiary text-[14px]">{t('trident.mindDesc')}</p>
+                <h3 className="font-headline-md text-[22px] uppercase text-on-surface mt-xs">{t('trident.bodyTitle')}</h3>
+                <p className="font-body-md text-body-md text-tertiary text-[14px]">{t('trident.bodyDesc')}</p>
                 <div className="w-full h-1 bg-surface-variant rounded mt-xs overflow-hidden">
-                  <div className={`h-full bg-secondary transition-all duration-500 ${selectedService === 'mind' ? 'w-full shadow-[0_0_10px_rgba(198,198,204,0.8)]' : 'w-[20%]'}`}></div>
+                  <div className={`h-full bg-secondary transition-all duration-500 ${selectedService === 'body' ? 'w-full shadow-[0_0_10px_rgba(198,198,204,0.8)]' : 'w-[20%]'}`}></div>
                 </div>
               </button>
 
-              {/* Card 3: Nutrition */}
+              {/* Card 3: Mind / Sleep & Recovery */}
               <button
-                onClick={() => setSelectedService('nutrition')}
+                onClick={() => setSelectedService('mind')}
                 className={`text-left glass-card rounded-xl p-md flex flex-col gap-xs relative overflow-hidden transition-all duration-300 cursor-pointer ${
-                  selectedService === 'nutrition'
+                  selectedService === 'mind'
                     ? 'border-primary shadow-[0_0_30px_rgba(255,181,158,0.3)] bg-surface-container/80'
                     : 'hover:border-outline-variant/60'
                 }`}
               >
                 <div className="flex items-center justify-between">
                   <div className="w-10 h-10 rounded bg-surface-variant flex items-center justify-center border border-outline-variant/50">
-                    <span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>restaurant_menu</span>
+                    <span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>bedtime</span>
                   </div>
                   <span className={`font-label-caps text-[10px] uppercase px-xs py-0.5 rounded ${
-                    selectedService === 'nutrition' ? 'bg-primary text-[#050608] font-bold' : 'text-tertiary bg-surface-variant/40'
+                    selectedService === 'mind' ? 'bg-primary text-[#050608] font-bold' : 'text-tertiary bg-surface-variant/40'
                   }`}>
-                    03 / {t('trident.nutritionTitle')}
+                    03 / {t('trident.mindTitle')}
                   </span>
                 </div>
-                <h3 className="font-headline-md text-[22px] uppercase text-on-surface mt-xs">{t('trident.nutritionTitle')}</h3>
-                <p className="font-body-md text-body-md text-tertiary text-[14px]">{t('trident.nutritionDesc')}</p>
+                <h3 className="font-headline-md text-[22px] uppercase text-on-surface mt-xs">{t('trident.mindTitle')}</h3>
+                <p className="font-body-md text-body-md text-tertiary text-[14px]">{t('trident.mindDesc')}</p>
                 <div className="w-full h-1 bg-surface-variant rounded mt-xs overflow-hidden">
-                  <div className={`h-full bg-primary transition-all duration-500 ${selectedService === 'nutrition' ? 'w-full shadow-[0_0_10px_rgba(255,181,158,0.8)]' : 'w-[20%]'}`}></div>
+                  <div className={`h-full bg-primary transition-all duration-500 ${selectedService === 'mind' ? 'w-full shadow-[0_0_10px_rgba(255,181,158,0.8)]' : 'w-[20%]'}`}></div>
                 </div>
               </button>
             </div>
@@ -605,7 +605,7 @@ function App() {
           <div className="flex flex-wrap gap-md font-body-md text-body-md md:justify-end items-center">
             <a
               className="inline-flex items-center gap-xs text-tertiary-fixed-dim hover:text-primary-container transition-colors duration-300"
-              href="https://instagram.com/romanmethod"
+              href="https://instagram.com/darochanutricion"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"

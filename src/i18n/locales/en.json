@@ -1,92 +1,88 @@
 {
   "nav": {
+    "brand": "DaRoCha Nutrición",
     "method": "The Method",
-    "services": "Services",
-    "impact": "Impact",
-    "team": "Elite Team",
-    "consultation": "Free Consultation",
-    "langSwitch": "ES/EN"
+    "services": "Pillars",
+    "impact": "Results",
+    "team": "Nutrition Consultation",
+    "consultation": "FREE CONSULTATION"
   },
   "hero": {
-    "badge": "High Performance Coaching",
-    "title": "YOUR BEST SELF <br/><span class=\"text-gradient\">WON'T WAIT.</span>",
-    "subtitle": "Elite physical, mental, and nutritional coaching designed for the modern world. We don't just change habits; we architect high-performance lifestyles.",
-    "cta1": "Start Your Transformation",
-    "cta2": "Watch Anthem",
-    "stat1Value": "100%",
-    "stat1Label": "Commitment",
-    "stat2Value": "0",
-    "stat2Label": "Excuses"
+    "badge": "HIGH-PERFORMANCE NUTRITION",
+    "title": "YOUR METABOLISM.",
+    "titleGradient": "FULLY OPTIMIZED.",
+    "subtitle": "Personalized precision sports and clinical nutrition plans, backed by functional training and sleep/recovery coaching.",
+    "ctaPrimary": "GET YOUR NUTRITION PLAN",
+    "ctaSecondary": "EXPLORE THE METHOD",
+    "stat1Value": "+94%",
+    "stat1Label": "Energy & Composition Improvement",
+    "stat2Value": "100%",
+    "stat2Label": "Data-Driven Personalized Nutrition"
   },
-  "trident": {
-    "sectionLabel": "THE SUCCESS",
-    "title": "TRIDENT",
-    "subtitle": "True high performance requires total synergy. Our coaching methodology attacks your potential from three critical angles simultaneously.",
-    "bodyTitle": "Body",
-    "bodyDesc": "Biomechanically optimized training programs designed to build resilient, powerful, and adaptable physical foundations.",
-    "mindTitle": "Mind",
-    "mindDesc": "Cognitive conditioning to enhance focus, manage stress, and develop the relentless discipline required of elite performers.",
-    "nutritionTitle": "Nutrition",
-    "nutritionDesc": "Precision macro and micronutrient strategies tailored to fuel your specific metabolic demands and accelerate recovery."
+  "carousel": {
+    "slide1Tag": "01. METABOLISM & COMPOSITION",
+    "slide1Title": "Personalized Precision Nutrition",
+    "slide1Desc": "Custom dietary plans tailored to your biochemistry, metabolic profile, and aesthetic or athletic goals.",
+    "slide2Tag": "02. INTEGRAL HEALTH & SLEEP",
+    "slide2Title": "Sleep & Recovery Optimization",
+    "slide2Desc": "Circadian rhythm regulation and inflammation reduction for deep cellular regeneration and sustained focus.",
+    "slide3Tag": "03. PHYSICAL PERFORMANCE",
+    "slide3Title": "Guided Complementary Training",
+    "slide3Desc": "Structured strength and endurance routines designed to maximize fat burn and lean muscle retention."
   },
   "method": {
-    "sectionLabel": "THE",
-    "title": "METHOD",
-    "subtitle": "A systematic, data-driven approach to human optimization. We leave nothing to chance.",
-    "step1Title": "Assessment & Diagnostics",
-    "step1Desc": "Comprehensive body composition analysis, movement screening, and lifestyle auditing to establish baseline metrics.",
-    "step2Title": "Nutrition & Control Plan",
-    "step2Desc": "Tailored precision nutritional strategy to optimize metabolism, sustained energy levels, and muscular recovery.",
-    "step3Title": "Protocol Design",
-    "step3Desc": "Engineering a bespoke, periodized plan integrating strength training blocks, endurance, and cognitive focus tasks.",
-    "step4Title": "Execution & Iteration",
-    "step4Desc": "Relentless execution with continuous data tracking, allowing for micro-adjustments to ensure constant progression.",
+    "sectionLabel": "DAROCHA METHOD",
+    "title": "HOLISTIC NUTRITION TRANSFORMATION",
+    "subtitle": "A scientific, data-driven approach to optimize health, vitality, and physique without absurd restrictive diets.",
+    "step1Title": "Nutritional Diagnosis & Assessment",
+    "step1Desc": "Body composition analysis, dietary habit auditing, and metabolic profiling to set baseline metrics.",
+    "step2Title": "Nutrition & Meal Plan Control",
+    "step2Desc": "Tailored precision nutritional strategy to optimize digestion, sustained energy, and satiety.",
+    "step3Title": "Training Integration",
+    "step3Desc": "Periodized functional exercise planning structured to synergize seamlessly with your dietary intake.",
+    "step4Title": "Sleep Optimization & Iteration",
+    "step4Desc": "Sleep protocols, cortisol management, and weekly micro-adjustments ensuring constant physical progress.",
     "overlayText": "Active Phase"
+  },
+  "trident": {
+    "sectionLabel": "OUR HEALTH PILLARS",
+    "title": "NUTRITION AT THE CORE",
+    "subtitle": "Clinical and sports nutrition as your primary growth driver, enhanced by physical exercise and restorative sleep.",
+    "nutritionTitle": "01. Nutrition & Meal Planning",
+    "nutritionDesc": "Bespoke nutritional strategies, macronutrient balance, gut health, and metabolic flexibility.",
+    "bodyTitle": "02. Functional Training",
+    "bodyDesc": "Strength and conditioning routines designed to complement your caloric intake and protect muscle mass.",
+    "mindTitle": "03. Rest restorative Sleep & Recovery",
+    "mindDesc": "Sleep hygiene, hormonal balance, and nervous system recovery to boost fat loss and daily energy."
   },
   "impact": {
     "title": "PROVEN <span class=\"text-primary-container\">IMPACT</span>",
-    "stat1Value": "94%",
-    "stat1Label": "Goal Achievement Rate",
-    "stat2Value": "12k+",
-    "stat2Label": "Hours Coached",
-    "stat3Value": "-18%",
-    "stat3Label": "Avg. Body Fat Reduction",
-    "stat4Value": "24/7",
-    "stat4Label": "Accountability Support"
+    "subtitle": "Real client transformations in physical physique, metabolic health, and daily vitality.",
+    "stat1Number": "98%",
+    "stat1Label": "Dietary Adherence Rate",
+    "stat2Number": "2.4x",
+    "stat2Label": "Increase in Daily Energy",
+    "stat3Number": "-14%",
+    "stat3Label": "Average Body Fat Reduction",
+    "quote": "\"DaRoCha Nutrición taught me how to eat according to my body's actual needs. My daily energy and physical transformation have been incredible without feeling starved.\"",
+    "author": "CARLOS M.",
+    "role": "Athlete & Entrepreneur"
   },
   "cta": {
-    "title": "READY TO COMMIT?",
-    "subtitle": "Book a complimentary strategy session. We'll assess your current state and map out the exact protocol needed to reach your peak.",
-    "placeholder": "Enter your email address",
-    "button": "Claim Free Consultation",
-    "note": "Limited spots available monthly"
+    "title": "START YOUR NUTRITIONAL TRANSFORMATION",
+    "subtitle": "Book a free initial consultation and we will design a strategy tailored to your lifestyle and goals.",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "phonePlaceholder": "Your Phone Number",
+    "button": "REQUEST FREE CONSULTATION",
+    "note": "Limited monthly spots to guarantee 100% personalized coaching."
   },
   "footer": {
-    "brand": "ROMAN METHOD",
-    "tagline": "© 2024 ROMAN METHOD. HIGH PERFORMANCE HOLISTIC COACHING.",
-    "link1": "Privacy Policy",
-    "link2": "Terms of Service",
-    "link3": "Institutional",
+    "brand": "DaRoCha Nutrición",
+    "tagline": "Precision Nutrition · Functional Training · Sleep Optimization",
+    "link1": "Legal Notice",
+    "link2": "Privacy Policy",
+    "link3": "Nutrition Plan",
     "link4": "Contact"
-  },
-  "carousel": {
-    "prev": "Previous",
-    "next": "Next",
-    "slide1": {
-      "title": "Body Composition Assessment",
-      "desc": "In-depth study of your baseline, recovery habits, body composition, and high-performance targets."
-    },
-    "slide2": {
-      "title": "Nutrition & Meal Plan Design",
-      "desc": "Flexible, tailored nutritional strategies that optimize metabolic energy without rigid restrictions."
-    },
-    "slide3": {
-      "title": "Training Protocol",
-      "desc": "Biomechanically optimized workout routines designed to build strength, power, and speed progressively."
-    },
-    "slide4": {
-      "title": "Mental Conditioning & Focus",
-      "desc": "Cognitive tools to build unshakeable discipline, mental clarity, and daily stress management."
-    }
   }
 }
