@@ -1,13 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" fill="none">
   <!-- Symbol Icon: Sleek Leaf & Energy Crest -->
   <g transform="translate(10, 10)">
-    <rect width="40" height="40" rx="10" fill="#1C1B1B" stroke="#FF571A" stroke-width="1.5" />
-    <path d="M20 8C13.3726 8 8 13.3726 8 20C8 26.6274 13.3726 32 20 32C26.6274 32 32 26.6274 32 20C32 13.3726 26.6274 8 20 8Z" stroke="#FF571A" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 2" />
-    <path d="M14 24C14 24 17 14 26 14C26 14 23 24 14 24Z" fill="#FF571A" />
-    <circle cx="20" cy="20" r="3" fill="#FFFFFF" />
+    <rect width="50" height="50" rx="14" fill="#1C1B1B" stroke="#FF571A" stroke-width="2" />
+    <path d="M25 10C16.7157 10 10 16.7157 10 25C10 33.2843 16.7157 40 25 40C33.2843 40 40 33.2843 40 25C40 16.7157 33.2843 10 25 10Z" stroke="#FF571A" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3" />
+    <path d="M17 30C17 30 21.25 17.5 32.5 17.5C32.5 17.5 28.75 30 17 30Z" fill="#FF571A" />
+    <circle cx="25" cy="25" r="3.5" fill="#FFFFFF" />
   </g>
   
-  <!-- Brand Text -->
-  <text x="64" y="32" font-family="'Montserrat', 'Anybody', sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" letter-spacing="1">DAROCHA</text>
-  <text x="64" y="46" font-family="'Inter', 'JetBrains Mono', sans-serif" font-size="11" font-weight="700" fill="#FF571A" letter-spacing="3">NUTRICIÓN</text>
+  <!-- Highlighted Text: D R C in Solar Orange -->
+  <g transform="translate(74, 12)">
+    <text y="28" font-family="'Montserrat', 'Anybody', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" letter-spacing="1">
+      <tspan fill="#FF571A">D</tspan>A<tspan fill="#FF571A">R</tspan>O<tspan fill="#FF571A">C</tspan>HA
+    </text>
+    <text y="44" font-family="'Inter', 'JetBrains Mono', sans-serif" font-size="12" font-weight="700" fill="#FF571A" letter-spacing="3.5">
+      NUTRICIÓN
+    </text>
+  </g>
 </svg>

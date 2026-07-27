@@ -98,11 +98,8 @@ function App() {
       {/* TopNavBar Component */}
       <nav className="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-xl border-b border-outline-variant/20" aria-label="Navegación principal">
         <div className="flex justify-between items-center max-w-container-max mx-auto px-gutter py-sm">
-          <a href="#" className="flex items-center gap-xs cursor-pointer" aria-label="Roman Method inicio">
-            <img alt="Roman Method Logo" className="h-9 w-auto object-contain" src="/logo.svg" />
-            <span className="font-display-xl text-headline-md tracking-tighter text-primary-container uppercase hidden md:block">
-              {t('footer.brand')}
-            </span>
+          <a href="#" className="flex items-center cursor-pointer" aria-label="DaRoCha Nutrición inicio">
+            <img alt="DaRoCha Nutrición Logo" className="h-12 md:h-14 w-auto object-contain" src="/logo.svg" />
           </a>
 
           <div className="hidden md:flex items-center gap-md font-label-caps text-label-caps">
@@ -535,19 +532,19 @@ function App() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-xs md:gap-sm">
             <div className="glass-card p-sm md:p-md rounded-lg flex flex-col items-center justify-center text-center">
-              <div className="font-display-xl text-[40px] md:text-display-xl text-primary-container">{t('impact.stat1Value')}</div>
+              <div className="text-3xl md:text-5xl font-headline-lg font-bold text-primary-container">{t('impact.stat1Value')}</div>
               <div className="font-label-caps text-[10px] md:text-label-caps uppercase text-tertiary mt-xs">{t('impact.stat1Label')}</div>
             </div>
             <div className="glass-card p-sm md:p-md rounded-lg flex flex-col items-center justify-center text-center">
-              <div className="font-display-xl text-[40px] md:text-display-xl text-on-surface">{t('impact.stat2Value')}</div>
+              <div className="text-3xl md:text-5xl font-headline-lg font-bold text-on-surface">{t('impact.stat2Value')}</div>
               <div className="font-label-caps text-[10px] md:text-label-caps uppercase text-tertiary mt-xs">{t('impact.stat2Label')}</div>
             </div>
             <div className="glass-card p-sm md:p-md rounded-lg flex flex-col items-center justify-center text-center">
-              <div className="font-display-xl text-[40px] md:text-display-xl text-on-surface">{t('impact.stat3Value')}</div>
+              <div className="text-3xl md:text-5xl font-headline-lg font-bold text-on-surface">{t('impact.stat3Value')}</div>
               <div className="font-label-caps text-[10px] md:text-label-caps uppercase text-tertiary mt-xs">{t('impact.stat3Label')}</div>
             </div>
             <div className="glass-card p-sm md:p-md rounded-lg flex flex-col items-center justify-center text-center">
-              <div className="font-display-xl text-[40px] md:text-display-xl text-primary-container">{t('impact.stat4Value')}</div>
+              <div className="text-3xl md:text-5xl font-headline-lg font-bold text-primary-container">{t('impact.stat4Value')}</div>
               <div className="font-label-caps text-[10px] md:text-label-caps uppercase text-tertiary mt-xs">{t('impact.stat4Label')}</div>
             </div>
           </div>
@@ -597,8 +594,7 @@ function App() {
         <div className="max-w-container-max mx-auto px-gutter grid grid-cols-1 md:grid-cols-2 gap-md items-center">
           <div className="flex flex-col gap-sm">
             <div className="flex items-center gap-xs">
-              <img alt="Roman Method Logo" className="h-8 w-auto object-contain" src="/logo.svg" />
-              <span className="font-display-xl text-headline-md text-primary uppercase tracking-tighter">{t('footer.brand')}</span>
+              <img alt="DaRoCha Nutrición Logo" className="h-12 w-auto object-contain" src="/logo.svg" />
             </div>
             <p className="font-body-md text-body-md text-tertiary-fixed-dim text-[12px] uppercase tracking-wider">{t('footer.tagline')}</p>
           </div>

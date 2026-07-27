@@ -20,7 +20,7 @@
     "stat2Label": "Data-Driven Personalized Nutrition"
   },
   "carousel": {
-    "slide1Tag": "01. METABOLISM & COMPOSITION",
+    "slide1Tag": "01. METABOLISM & COMPOSITIONS",
     "slide1Title": "Personalized Precision Nutrition",
     "slide1Desc": "Custom dietary plans tailored to your biochemistry, metabolic profile, and aesthetic or athletic goals.",
     "slide2Tag": "02. INTEGRAL HEALTH & SLEEP",
@@ -58,12 +58,14 @@
   "impact": {
     "title": "PROVEN <span class=\"text-primary-container\">IMPACT</span>",
     "subtitle": "Real client transformations in physical physique, metabolic health, and daily vitality.",
-    "stat1Number": "98%",
+    "stat1Value": "98%",
     "stat1Label": "Dietary Adherence Rate",
-    "stat2Number": "2.4x",
+    "stat2Value": "2.4x",
     "stat2Label": "Increase in Daily Energy",
-    "stat3Number": "-14%",
+    "stat3Value": "-14%",
     "stat3Label": "Average Body Fat Reduction",
+    "stat4Value": "100%",
+    "stat4Label": "Ongoing Personalized Support",
     "quote": "\"DaRoCha Nutrición taught me how to eat according to my body's actual needs. My daily energy and physical transformation have been incredible without feeling starved.\"",
     "author": "CARLOS M.",
     "role": "Athlete & Entrepreneur"
