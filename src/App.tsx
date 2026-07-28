@@ -239,13 +239,13 @@ function App() {
             <h1 className="font-display-xl text-headline-lg-mobile md:text-display-xl uppercase text-on-surface leading-tight tracking-tighter">
               {i18n.language === 'es' ? (
                 <>
-                  TU METABOLISMO. <br />
-                  <span className="text-gradient">OPTIMIZADO AL MÁXIMO.</span>
+                  LA NUTRICIÓN DEBE ADAPTARSE A TI, <br />
+                  <span className="text-gradient">NO TÚ A LA NUTRICIÓN.</span>
                 </>
               ) : (
                 <>
-                  YOUR METABOLISM. <br />
-                  <span className="text-gradient">FULLY OPTIMIZED.</span>
+                  NUTRITION MUST ADAPT TO YOU, <br />
+                  <span className="text-gradient">NOT YOU TO NUTRITION.</span>
                 </>
               )}
             </h1>
@@ -286,6 +286,49 @@ function App() {
           </div>
         </div>
       </header>
+
+      {/* Official Manifesto Section */}
+      <section className="py-xl bg-surface-container-lowest border-y border-outline-variant/10 relative overflow-hidden" id="manifesto">
+        <div className="max-w-container-max mx-auto px-gutter relative z-10">
+          <div className="mb-lg text-center max-w-3xl mx-auto">
+            <span className="font-label-caps text-label-caps text-primary-container uppercase px-sm py-1 rounded border border-primary-container/30 bg-primary-container/10">
+              {t('manifestoSection.sectionLabel')}
+            </span>
+            <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg uppercase text-on-surface mt-sm">
+              <span className="text-gradient">{t('manifestoSection.title')}</span>
+            </h2>
+            <p className="font-body-lg text-body-lg text-tertiary mt-xs italic">
+              "{t('manifestoSection.subtitle')}"
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-md">
+            <div className="glass-card p-md rounded-xl flex flex-col gap-xs border border-outline-variant/30 hover:border-primary-container/60 transition-all duration-300">
+              <div className="w-10 h-10 rounded bg-primary-container/10 flex items-center justify-center border border-primary-container/40 text-primary-container font-bold font-label-caps">
+                01
+              </div>
+              <h3 className="font-headline-md text-[20px] uppercase text-on-surface mt-xs">{t('manifestoSection.principle1Title')}</h3>
+              <p className="font-body-md text-body-md text-tertiary text-[14px]">{t('manifestoSection.principle1Desc')}</p>
+            </div>
+
+            <div className="glass-card p-md rounded-xl flex flex-col gap-xs border border-outline-variant/30 hover:border-primary-container/60 transition-all duration-300">
+              <div className="w-10 h-10 rounded bg-primary-container/10 flex items-center justify-center border border-primary-container/40 text-primary-container font-bold font-label-caps">
+                02
+              </div>
+              <h3 className="font-headline-md text-[20px] uppercase text-on-surface mt-xs">{t('manifestoSection.principle2Title')}</h3>
+              <p className="font-body-md text-body-md text-tertiary text-[14px]">{t('manifestoSection.principle2Desc')}</p>
+            </div>
+
+            <div className="glass-card p-md rounded-xl flex flex-col gap-xs border border-outline-variant/30 hover:border-primary-container/60 transition-all duration-300">
+              <div className="w-10 h-10 rounded bg-primary-container/10 flex items-center justify-center border border-primary-container/40 text-primary-container font-bold font-label-caps">
+                03
+              </div>
+              <h3 className="font-headline-md text-[20px] uppercase text-on-surface mt-xs">{t('manifestoSection.principle3Title')}</h3>
+              <p className="font-body-md text-body-md text-tertiary text-[14px]">{t('manifestoSection.principle3Desc')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* The Method Section */}
       <section className="py-xl bg-background relative overflow-hidden" id="method">
